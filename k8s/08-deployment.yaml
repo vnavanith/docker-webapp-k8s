@@ -51,7 +51,7 @@ spec:
             capabilities: {drop: ["ALL"]}
       containers:
         - name: app
-          image: shaikmustafa/king:app   # <-- change to your image
+          image: vushakoyalanavanith/king:app   # <-- change to your image
           imagePullPolicy: IfNotPresent
           ports:
             - {name: http, containerPort: 8080}
